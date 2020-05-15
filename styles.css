@@ -712,14 +712,14 @@ h1 { padding: 0; margin: 0 0 10px 0; color: #fff; }
   transition: all 0.3s;
 }
 .new-sec-one .box:hover{
-  -webkit-box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.75);
-  margin-top: -35px;
+  -webkit-box-shadow: 0px 21px 23px -17px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 21px 23px -17px rgba(0,0,0,0.5);
+  box-shadow: 0px 21px 23px -17px rgba(0,0,0,0.5);
+  margin-top: -25px;
 }
-.new-sec-one .box:hover > .img{
+/* .new-sec-one .box:hover > .img{
   margin-top: 0px;
-}
+} */
 .new-sec-one .box .btn-new-bc{
   width: 100%;
 }

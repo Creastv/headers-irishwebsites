@@ -1268,17 +1268,7 @@ section.sec-four .container .col-md-12 .sl-cont .owl-carousel .owl-dots{
   padding: 25px 0px 15px!important;
 }
 
-.icon-svg2{
-  padding: 5px!important;
-  border:none!important;
-  height: 100px!important;
-  width: 100px!important;
-}
-.icon-svg2 img{
-  width: 100%;
-  margin: 2px;
-  padding: 5px;
-}
+
 
 /* Sidebar */
 .sidebar-new{
@@ -1292,7 +1282,11 @@ section.sec-four .container .col-md-12 .sl-cont .owl-carousel .owl-dots{
 }
 .sidebar-new li a{
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border:1px solid transparent;
   border-radius: 5px;

@@ -1280,9 +1280,69 @@ section.sec-four .container .col-md-12 .sl-cont .owl-carousel .owl-dots{
   padding: 5px;
 }
 
+/* Sidebar */
+.sidebar-new{
+  padding: 0;
+  list-style: none;
+  border-left: 1px #bdbec0 dashed;
+}
+.sidebar-new li{
+  display: block;
+  padding: 5px 10px;
+}
+.sidebar-new li a{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border:1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  color:#020202;
+}
+.sidebar-new li a img{
+  max-width: 75px;
+  padding-right:5px;
+}
+.sidebar-new li a div{
+  padding: 5px 0px 10px 5px;
+}
+.sidebar-new li a div h3{
+  font-weight: 900!important;
+  padding:0;
+  margin: 0;
+}
+.sidebar-new li:hover a{
+  border:1px solid #bdbec0;
+  background-color: #51bd3aff;
+  color:#fff;
+  -webkit-box-shadow: 0px 12px 23px -17px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 12px 23px -17px rgba(0,0,0,0.5);
+  box-shadow: 0px 12px 23px -17px rgba(0,0,0,0.5);
+}
 
+.sidebar-new li.call{
+text-align: center;
+}
+.sidebar-new li.call p{
+  font-weight: 900;
+  color:#51bd3aff;
+}
+.sidebar-new li.call .btn{
+  width: 100%;
+  text-align: center!important;
+  display: block;
+  color:#fff;
+  font-size: 21px;
+  font-weight: 900;
+}
+.sidebar-new li.call .btn:hover{
+  color:#51bd3aff;
+  background:#fff;
+  border-color:#51bd3aff;
+}
 
-
-/* header */
+.sidebar-new li.active{
+  pointer-events: none;
+}
 
 /*# sourceMappingURL=styles.css.map */

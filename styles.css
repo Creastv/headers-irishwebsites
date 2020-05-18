@@ -331,7 +331,7 @@ section.sec-two .container .row .col-md-12 .sl-cont .owl-carousel .owl-dots { ma
 
 section.sec-two .container .row .col-md-12 .sl-cont .owl-carousel .owl-dots .owl-dot:focus { outline: none; }
 
-section.sec-three { width: 100%; background-color: #51bd3aff; padding: 55px 0; background-image: url('img/new/bg-calltoaction.jpg'); background-attachment: fixed; }
+section.sec-three { width: 100%; background-color: #51bd3aff; padding: 55px 0; background-image: url('img/new/bg-calltoaction.jpg'); background-attachment: fixed; background-size: cover; background-position: center; }
 
 section.sec-three .row { display: flex; }
 
@@ -1261,6 +1261,26 @@ section.sec-four .container .col-md-12 .sl-cont .owl-carousel .owl-dots{
     font-weight: normal;
   }
 }
+
+/* overwriting patch.css */
+
+.points-icon-list{
+  padding: 25px 0px 15px!important;
+}
+
+.icon-svg2{
+  padding: 5px!important;
+  border:none!important;
+  height: 100px!important;
+  width: 100px!important;
+}
+.icon-svg2 img{
+  width: 100%;
+  margin: 2px;
+  padding: 5px;
+}
+
+
 
 
 /* header */
